@@ -401,3 +401,73 @@ body {
   color: white; }
 
 .ctp h4 {
+  color: #32A3DB;
+  text-align: center;
+  text-justify: distribute;
+  text-shadow: 0.05rem 0.05rem 0 black; }
+
+.ctp p {
+  color: white;
+  text-align: justify; }
+
+.ctp ul,
+.ctp ul li {
+  list-style: none; }
+
+.ctp ul li .bi::before {
+  color: white;
+  font-size: 7rem;
+  line-height: rem;
+  border-radius: 50%;
+  background-color: #1E90C6; }
+
+.pie-de-pagina {
+  background-color: #043C63;
+  color: white;
+  padding: 1rem; }
+
+.ulp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.ulp li {
+  list-style: none; }
+
+.ulp a {
+  color: white;
+  padding: 1rem;
+  font-size: 3rem;
+  opacity: 0.7;
+  -webkit-transition: all .7s ease;
+  transition: all .7s ease; }
+
+.ulp a:hover {
+  opacity: 1; }
+
+@media (max-width: 539px) {
+  .ulp a {
+    font-size: 2rem; } }
+.ir-arriba {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 4rem;
+  color: white;
+  text-decoration: none;
+  z-index: 99999;
+  line-height: 0;
+  opacity: 0.5;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease; }
+
+.ir-arriba:hover,
+.ir-arriba:focus {
+  outline: 0;
+  text-decoration: none;
+  opacity: 1; }
+
+/*# sourceMappingURL=estilos.css.map */
